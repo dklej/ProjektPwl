@@ -1,0 +1,147 @@
+img{
+    position: relative;
+}
+
+header{
+    background-image: url(photos/photographer-2v2.jpg);
+    background-size: cover;
+    height: 850px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Century Gothic';
+    background-color: #dfebda;  
+}
+
+ul{
+    margin: 0;
+    padding-top: 10;
+    list-style-type: none;
+    text-align: right;
+    background-color: #6ac261;
+    opacity: 0.8;
+   
+}
+
+
+li{
+    display: inline-block;
+    margin: 18;
+    margin-bottom: 8;
+    padding-top: 10;
+    padding-right: 10;
+    font-family: 'Century Gothic';
+    text-align: right;
+    font-size: 30;
+}
+
+.opacity100{
+    opacity: 0;
+}
+
+
+a{
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    padding-top: 100;
+    text-align: center;
+}
+
+.firstH1{
+    font-size: 40;
+}
+
+.articleG{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.sekcjeGlowne{
+    background-color: #c5d4be;
+    margin: 10;
+    box-shadow: 4px 4px #bcebb7;
+    flex-basis: 48%;
+}
+
+.p1{
+    font-size: 20;
+}
+
+/* css na profilowki */
+aside{
+    text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+    margin: 5;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.asideG{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50;
+}
+.h1Gora{
+    text-align: center;
+    font-size: 50;
+}
+
+footer{
+    padding-top: 20;
+    padding-left: 15;
+    background-color: #a6a4a4;
+    height: 130px;
+}
+
+.stopka{
+    font-size: 9;
+    
+}
