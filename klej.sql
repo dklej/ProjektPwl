@@ -5,7 +5,7 @@ CREATE TABLE `posts` (
   `id_user` int(11) NOT NULL,
   `title` text NOT NULL,
   `url` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+);
 
 --
 -- Zrzut danych tabeli `posts`
@@ -28,7 +28,7 @@ CREATE TABLE `users` (
   `pass` text NOT NULL,
   `rank` int(1) NOT NULL DEFAULT '0',
   `banned` int(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+);
 
 --
 -- Zrzut danych tabeli `users`
@@ -70,10 +70,6 @@ ALTER TABLE `posts`
 --
 ALTER TABLE `users`
   MODIFY `id_acc` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- Ograniczenia dla zrzutów tabel
---
 
 --
 -- Ograniczenia dla tabeli `posts`
